@@ -11,15 +11,32 @@ body{
     row-gap: 80px;
 }
 header{
-    background: green;
+    background: #0A2647;
 
 }
 .contenido{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     width: 90vw;
     height: 500px;
-    background: red;
+    /*background: rgb(82, 118, 165); */
     min-width: 300px;
 }
 footer{
     background: red;
 }
+
+
+    /* inicio desarrollo de diseño area de ropa deportiva */ 
+    
+    #columnas{
+        column-count:4;
+        column-gap:30px;
+        /*column-rule:4px dotted rgb(92, 115, 175); */
+    }
+
+    p{
+        font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-size: 25px;
+    }
+
+
