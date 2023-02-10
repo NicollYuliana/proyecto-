@@ -1,0 +1,78 @@
+.banner{
+    width: 100vw;
+    height: calc(99vh - 65px);
+    /* background: url('../assets/Sin\ título.png'); */
+    /* background-size: cover; */
+    display: grid;
+    grid-template-columns: 1000px;
+    text-align: center;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    margin-top: -8px;
+}
+.info-banner{
+    display: grid;
+    grid-template-rows: 100px 100px;
+    align-items: center;
+    gap: 20px;
+}
+.info h1{
+    color: black;
+    font-size: 8rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.info p{
+    color: white;
+    font-size: 2rem;
+    font-weight: 700;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    padding: 0px;
+    margin: 0px;
+}
+.item-logo{
+    justify-content: flex-start;
+    padding-left: 50px;
+}
+.contenido{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+section{
+    display: grid;
+    justify-items: center;
+    align-content: center;
+}
+section h2{
+    font-weight: bold;
+    font-size: 2rem;
+}
+section p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif';
+}
+.banner{
+    background: url('../assets/ropa-vintage-y-accesorios-en-el-fondo-de-madera-59864400.jpg');
+    background-size: cover;
+    margin: 0px;
+}
+.info-banner h1{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+    font-size: 6rem ;
+}
+.info-banner p{
+    font-size: 1.5rem;
+    font-family: monospace;
+}
+.contenido{
+    padding: 0px 50px;
+}
+.slider{
+    grid-column: 1/3;
+}
+.slide{
+    width: 100%;
+}
+h2{
+    color: #205295;
+}
